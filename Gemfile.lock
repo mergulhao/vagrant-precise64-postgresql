@@ -1,0 +1,14 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    facter (1.6.17)
+    hiera (1.0.0)
+    puppet (3.0.2)
+      facter (~> 1.6.11)
+      hiera (~> 1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  puppet (= 3.0.2)
